@@ -1,0 +1,4 @@
+AddDefaultCharset UTF-8
+
+RewriteRule ^/?$ index.html [NC, L]
+RewriteRule ^/video?$ video.html [NC, L]
